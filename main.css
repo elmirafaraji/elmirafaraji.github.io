@@ -1,0 +1,182 @@
+         
+  *{
+    margin: 0;
+    
+    box-sizing: border-box;
+    
+}
+#background-box img{
+width: 100%;
+height: auto;
+margin: auto;
+
+}
+
+/* li{
+    display: inline-block;
+    padding-inline-start: 50px;
+    font-size: 21px;
+    padding: 10px 25px 10px 25px;
+    border-right: 1px solid #0d0303;
+    
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+} */
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 26px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position:absolute;
+    top: 0;
+    right: 25px;
+    font-size: 55px;
+    margin-left: 50px;
+  }
+  
+  .openbtn{
+    font-size: xx-large ;
+    margin :10px;
+  }
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+h1{
+    text-align: center;
+    padding: 50px;
+    margin: 10px;
+    font-size: 40px;
+
+}
+i{
+    font-size: 28px;
+    padding: 20px;
+}
+.products-list{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.products-item{
+    width: 33%;
+    display:inline-block;
+    transition: transform .2s;
+
+}
+.products-item:hover{
+    transform: scale(1.5);
+}
+.about-box{
+    width: 60%;
+    margin: 0 auto;
+}
+
+#location{
+    overflow-clip-margin: content-box !important;
+    overflow: clip !important;
+    touch-action: pan-x pan-y;
+    width: 100%;
+    height: 450px;
+    padding: 20px 50px;
+    border: 0;
+}
+#about-us{
+    background-color: #9f5555;
+}
+.products-box{
+    text-align: center;
+}
+
+#discription{
+    padding: 20px 50px;
+}
+#main-footer{
+    background-color:#111;
+    min-height: 200px;
+    color: white;
+    text-align: center;
+    padding: 22px;
+}
+.footer-left{
+    display: inline-block;
+    width: 45%;
+}
+.footer-right{
+    display: inline-block;
+    width: 45%;
+    
+}
+.footer-right ul{
+    list-style: none;
+}
+#logo{
+    float: right;
+}
+@media only screen and (max-width :768px) {
+    .products-item{
+        width: 100%;
+        display:block;
+        transition: transform .2s;
+    
+    }
+    #location{
+        overflow-clip-margin: content-box !important;
+        overflow: clip !important;
+        touch-action: pan-x pan-y;
+        width: 100%;
+        height: 450px;
+    }
+    .about-box{
+        width: 90%;
+    }
+    #location{
+        height: 400px;
+        padding: 10px 10px;
+    }
+    .openbtn{
+        font-size:large ;
+        
+      }
+}
