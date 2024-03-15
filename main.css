@@ -5,34 +5,22 @@
     box-sizing: border-box;
     
 }
+#background-box{
+    text-align: center;
+    height: 550px;
+}
 #background-box img{
-width: 100%;
-height: auto;
+width: 50%;
+height: 80%;
 margin: auto;
-
+/* background-size: cover; */
 }
 
-/* li{
-    display: inline-block;
-    padding-inline-start: 50px;
-    font-size: 21px;
-    padding: 10px 25px 10px 25px;
-    border-right: 1px solid #0d0303;
-    
-}
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-} */
+
 
 .sidenav {
     height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
+    width: 250px; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0;
@@ -72,7 +60,7 @@ ul {
     margin :10px;
   }
   /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-  #main {
+  main {
     transition: margin-left .5s;
     padding: 20px;
   }
@@ -178,5 +166,8 @@ i{
     .openbtn{
         font-size:large ;
         
+      }
+      .sidenav{
+        width: 200px;
       }
 }

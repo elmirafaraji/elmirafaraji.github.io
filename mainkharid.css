@@ -1,0 +1,71 @@
+#navbar {
+    background-color: #333;
+    color: #fff;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  #navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+  }
+  body{
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  #details-products{
+    text-align: center;
+  }
+  #grm,#zereshk{
+    width: 100%;
+    /* padding: 2%; */
+    /* margin: 5%; */
+    display: inline-block;
+    transition: transform .2s;
+  }
+  
+  
+  #mesghal{
+    width: 100%;
+    /* padding: 2%; */
+    /* margin: 5%; */
+    display: inline-block;
+    transition: transform .2s;
+   
+    
+  }
+  #grm:hover{
+
+  transform: scale(1.5);
+
+  }
+  
+  #mesghal:hover{
+    transform: scale(1.5);
+  }
+
+  #zereshk:hover{
+    transform: scale(1.5);
+  }
+  #yek,#dou,#three{
+    width: 15%;
+     border: solid 1px rgb(11, 3, 3);
+     padding: 5%;
+     margin: 5%;
+     text-align: center!important;
+     display: inline-block;
+  }
+  .detailsmore{
+  background: #face00;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #000;
+    padding: 7px;
+    display: block
+}
