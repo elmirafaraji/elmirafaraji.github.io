@@ -7,11 +7,11 @@
 }
 #background-box{
     text-align: center;
-    height: 550px;
+    height: 400px;
 }
 #background-box img{
 width: 50%;
-height: 80%;
+height: auto;
 margin: auto;
 /* background-size: cover; */
 }
@@ -149,6 +149,15 @@ i{
         transition: transform .2s;
     
     }
+    #background-box{
+        height: 300px;
+       
+    }
+    #background-box img{
+        width: 80%;
+        height: 90%;
+       
+        }
     #location{
         overflow-clip-margin: content-box !important;
         overflow: clip !important;
