@@ -51,14 +51,13 @@
   #zereshk:hover{
     transform: scale(1.5);
   }
-  #yek,#dou,#three{
-     width: 15%;
-     border: solid 1px rgb(11, 3, 3);
-     border-radius: 5px;
-     padding: 5%;
-     margin: 5%;
-     text-align: center!important;
-     display: inline-block;
+  .card{
+  
+      white-space: nowrap;
+      width: 150px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      
   }
   .detailsmore{
   background: #face00;

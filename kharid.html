@@ -1,45 +1,82 @@
 <!DOCTYPE html>
 <html>
-  
-    <head>
+
+<head>
 
 
-      <title> kharid </title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="mainkharid.css">
-      <link rel="stylesheet" href="index.html">
-      <!-- <script src="src/kharid.js"></script> -->
+  <title> kharid </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="mainkharid.css">
+  <link rel="stylesheet" href="index.html">
+  <link rel="stylesheet" href="src/libs/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+  <script src="src/libs/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="src/jquery-3.7.1.min.js"></script>
+  <script src="src/kharid.js"></script>
 
+</head>
 
-    </head>
-    <body>
-      
-        <nav>
-            <div>
-            <nav id="navbar">
-                <a href="index.html">Home</a>
-                <a href="index.html#products">products</a>
-                <a href="index.html#about-us"  hreflang="#about-us">About Us</a>
-              </nav>
-              <div id="details-products">
-                <div id="yek">
-                <img id="grm" src="images/1 gr.jpeg" >
-                <h5>1 gr saffron from khorasan razavi</h5>
-                <a href="tozihat.html#1" class="detailsmore" > More details </a>
-              </div>
-              <div id="dou">
-                <img id="mesghal"  src="images/mesghal.jpeg">
-                <h6>1 mesghal saffron from khorasan razavi</h6>
-                <a href="tozihat.html#2" class="detailsmore">More details</a>
-              </div>
-              <div id="three">
-                <img id="zereshk"  src="images/zereshkforosh.png">
-                <h6>1 kilo zereshk from khorasan razavi</h6>
-                <a href="tozihat.html#3" class="detailsmore">More details</a>
-              </div>
-            </div>
+<body>
+  <header>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item"><a href="sign in.html">sign in</a></li>
+        <li class="breadcrumb-item active" aria-current="page">kharid</li>
+      </ol>
+    </nav>
+  </header>
+
+  <nav id="navbar">
+    <a href="index.html">Home</a>
+    <a href="index.html#products">products</a>
+    <a href="index.html#about-us" hreflang="#about-us">About Us</a>
+  </nav>
+  <div class="container">
+    <div class="row row-gap-3">
+      <div class="col">
+        <div class="card" style="width: 18rem; height: auto">
+          <img src="images/1 gr.jpeg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">1 gr saffron from khorasan razavi</p>
+            <a href="#" class="btn btn-primary">More details</a>
           </div>
-      </nav>
-        
-    </body>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem; height:auto">
+          <img src="images/mesghal.jpeg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">1 mesghal saffron from khorasan razavi</p>
+            <a href="#" class="btn btn-primary">More details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="images/zereshkforosh.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">1 kilo zereshk from khorasan razavi</p>
+            <a href="#" class="btn btn-primary">More details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem; height:auto">
+          <img src="images/hell.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">100 gr hel from khorasan razavi</p>
+            <a href="#" class="btn btn-primary">More details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
 </html>

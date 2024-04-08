@@ -4,9 +4,19 @@
         <title> sign-in </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="mainsigning.css">
+        <link rel="stylesheet" href="src/libs/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+        <script src="src/libs/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
     </head>
     <body>
-        
+        <header>
+          
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">sign in</li>
+            </ol>
+          </nav>
+        </header>
         
        <div class="bg-img">
         <form action="kharid.html" class="container">
@@ -18,7 +28,7 @@
           <label for="psw"><b>Password</b></label>
           <input type="password" placeholder="Enter Password" name="psw" required>
       
-          <button type="submit" class="btn" >Login</button>
+          <button type="submit" class="btn bg-primary" >Login</button>
         </form>
       </div>
 

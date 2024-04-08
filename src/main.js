@@ -18,12 +18,13 @@ $(document).ready(function(){
   $("#open").click(function(){
     $("#mySidenav").show(); 
   })
-  setTimeout(buy,5000);
+  
+  $("#re").click(function(){
+    $("#products").hide();
+  })
  
 })
 
 
-function buy(){
-  alert("Hi,welcome to my websit")
-}
+
  
