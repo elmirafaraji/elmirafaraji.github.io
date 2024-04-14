@@ -71,10 +71,14 @@ margin: auto;
   }
 h1{
     text-align: center;
-    padding: 50px;
+    padding-bottom: 40px;
+    padding-top: 0%;
     margin: 10px;
     font-size: 40px;
 
+}
+#title-2{
+    padding: 50px;
 }
 i{
     font-size: 28px;
@@ -85,6 +89,29 @@ i{
     margin: 0 auto;
 
 }
+.ribbon {
+    width: 60px;
+    font-size: 14px;
+    padding: 4px;
+    position: absolute;
+    right: -5px;
+    top: -2px;
+    text-align: center;
+    border-radius: 25px;
+    transform: rotate(20deg);
+    background-color: #ff9800;
+    color: white;
+   
+  }
+  #carouselRight-img{
+    position: absolute;
+    border: 3px solid #000;
+    border-radius: 50%;
+    cursor: none;
+    /*Set the size of the magnifier glass:*/
+    width: 100px;
+    height: 100px;
+  }  
 
 .products-item{
     width: 33%;
@@ -114,6 +141,7 @@ i{
 }
 .products-box{
     text-align: center;
+    margin: 0;
 }
 
 #discription{

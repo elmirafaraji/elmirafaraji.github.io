@@ -20,11 +20,11 @@
     <header>
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item active" aria-current="page">Home</li>
+                <li class="breadcrumb-item active" aria-current="page">Home</li>
             </ol>
-          </nav>
-          
-        
+        </nav>
+
+
 
 
         <div id="mySidenav" class="sidenav">
@@ -37,27 +37,139 @@
 
 
         <button class="openbtn" id="open" onclick="openNav()"> &#9776; menu</button>
-        <div class="row">
-            <div class="col">
+        <div id="home" data-bs-spy="scroll" data-bs-target="#topnavbar"
+            class="container-fluid text-center home-margin-top">
+            <div class="row mt-5">
+                <div class="col-4">
+                    <div id="carouselRightTop" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner rounded">
+                            <div class="carousel-item active" data-bs-interval="3000">
+                                <img src="images/saffron-1.jpg" class="w-100 d-block "  alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="images/safrooon.jpeg" class="d-block w-100"  alt="...">
+                            </div>
+                            <span class="ribbon">NEW</span>
+                            <!-- <div class="carousel-item">
+                        <img src="" class="d-block w-100" alt="...">
+                      </div> -->
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <!-- <div id="background-box">
+                    <img src="images/saffron-1.jpg " class="rounded mx-auto d-block"> -->
 
 
-                <div id="background-box">
-                    <img src="images/saffron-1.jpg " class="rounded mx-auto d-block">
+                </div>
+                <div class="col-2">
+                    <div class="row row-cols-1">
+                        <div class="col p-2">
+                            <div id="carouselleftTop" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner rounded">
+                                    <div class="carousel-item active">
+                                        <img src="images/hell.jpeg" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
 
+                            </div>
+
+                        </div>
+                        <div class="col p-2">
+                            <div id="carouselleftBottom" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner rounded">
+                                    <div class="carousel-item active">
+                                        <img src="images/helll.jpeg" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6" >
+                    <div class="row p-4">
+                        <div id="carouselRight" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="3000">
+                                    <img src="images/kharid2.webp" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
-
-
     </header>
-
-
-
-
     <main>
-        <div id="products" class="products-box">
-            <h1 id="title-h1">products</h1>
+
+
+
+        <div class="container">
+            <div class="row">
+                <div id="products" class="products-box">
+                    <h1 id="title-h1">products</h1>
+                </div>
+            </div>
+        </div>
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-3 col-6">
+                        <div class="card">
+                            <a href="#">
+                                <img src="images/1 gr.jpeg" class="card-img-top"></a>
+                            <div class="card-body">
+                                <h3 class="card-title">Card title</h3>
+                                <h5 class="card-text">1 gr saffron from khorasan razavi</h5>
+                                <a href="#" class="btn btn-primary">More details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <div class="card">
+                            <a href="#">
+                                <img src="images/mesghal.jpeg" class="card-img-top"></a>
+                            <div class="card-body">
+                                <h3 class="card-title">Card title</h3>
+                                <h5 class="card-text">1 mesghal saffron from khorasan razavi</h5>
+                                <a href="#" class="btn btn-primary">More details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <div class="card">
+                            <a href="#">
+                                <img src="images/zereshkforosh.png" class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                                <h3 class="card-title">Card title</h3>
+                                <h5 class="card-text">1 kilo zereshk from khorasan razavi</h5>
+                                <a href="#" class="btn btn-primary">More details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <div class="card">
+                            <a href="#">
+                                <img src="images/hell.jpeg" class="card-img-top" alt="..."></a>
+                            <div class="card-body">
+                                <h3 class="card-title">Card title</h3>
+                                <h5 class="card-text">100 gr hel from khorasan razavi</h5>
+                                <a href="#" class="btn btn-primary">More details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="container">
             <div class="products-list">
                 <div class="products-item">
                     <img src="images/zaferan item.jpeg" alt="zareran">
@@ -74,31 +186,40 @@
             </div>
 
         </div>
-        <br><br>
-        <div id="about-us" class="box-us">
-            <h1 id="title-2">About Us</h1>
-            <div id="about" class="about-box">
+    </div> -->
+            <br><br>
+            <div id="about-us" class="box-us">
+                <h1 id="title-2">About Us</h1>
+                <div id="about" class="about-box">
 
-                <p id="discription">Saffron is known as Zafaran or Kesar. The thread like part of Zafraan flower is used
-                    for many health and medicinal purposes. Zafraan is one of the most expensive spices in the world as
-                    maximum of its processing work is done through hand. Saffron is extremely valuable spice because of
-                    its distinct flavor, health and medicinal properties.
+                    <p id="discription">Saffron is known as Zafaran or Kesar. The thread like part of Zafraan flower is
+                        used
+                        for many health and medicinal purposes. Zafraan is one of the most expensive spices in the world
+                        as
+                        maximum of its processing work is done through hand. Saffron is extremely valuable spice because
+                        of
+                        its distinct flavor, health and medicinal properties.
 
-                    Zafraan is used in many culinary recipes worldwide due to its unique flavor which is happened due to
-                    the presence of chemical compounds such as picrocrocin and safranal. The most sought after herbal
-                    product is used in diseases like asthma, cough & cold, stomach ailments, insomnia, uterine bleeding,
-                    cancer, Alzheimer’s disease, infertility, depression,
-                    cholesterol, flatulence, etc. Zafraan contain more than 150 volatile compounds that is good for the
-                    overall well-being of the body. Saffron is widely grown in Iran, Turkey, Greece, France, Italy and
-                    Jammu & Kashmir of India.
+                        Zafraan is used in many culinary recipes worldwide due to its unique flavor which is happened
+                        due to
+                        the presence of chemical compounds such as picrocrocin and safranal. The most sought after
+                        herbal
+                        product is used in diseases like asthma, cough & cold, stomach ailments, insomnia, uterine
+                        bleeding,
+                        cancer, Alzheimer’s disease, infertility, depression,
+                        cholesterol, flatulence, etc. Zafraan contain more than 150 volatile compounds that is good for
+                        the
+                        overall well-being of the body. Saffron is widely grown in Iran, Turkey, Greece, France, Italy
+                        and
+                        Jammu & Kashmir of India.
 
-                </p>
-                <br>
-                <iframe id="location"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1958.530149271294!2d51.14026173984127!3d35.63045786133629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8df12a9d3b9d3d%3A0x348162abfd9f11ab!2z2K7Yp9iv2YUg2KLYqNin2K_YjCDYqNin2LrYs9iq2KfZhtiMINin2LPYqtin2YYg2KrZh9ix2KfZhtiMINin24zYsdin2YY!5e0!3m2!1sfa!2sjp!4v1709264999065!5m2!1sfa!2sjp"
-                    allowfullscreen></iframe>
+                    </p>
+                    <br>
+                    <iframe id="location"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1958.530149271294!2d51.14026173984127!3d35.63045786133629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8df12a9d3b9d3d%3A0x348162abfd9f11ab!2z2K7Yp9iv2YUg2KLYqNin2K_YjCDYqNin2LrYs9iq2KfZhtiMINin2LPYqtin2YYg2KrZh9ix2KfZhtiMINin24zYsdin2YY!5e0!3m2!1sfa!2sjp!4v1709264999065!5m2!1sfa!2sjp"
+                        allowfullscreen></iframe>
+                </div>
             </div>
-        </div>
 
     </main>
     <footer id="main-footer">
@@ -112,13 +233,13 @@
             <img src="images/footerlogo.jpg" width="25%" id="logo">
             <ul>
                 <li>
-                    <a  href="#">Home</a>
+                    <a href="#">Home</a>
                 </li>
                 <li>
                     <a href="#products">products</a>
                 </li>
                 <li>
-                    
+
                     <a id="re" href="#about-us">About Us</a>
                 </li>
                 <li>
